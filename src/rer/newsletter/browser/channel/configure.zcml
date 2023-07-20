@@ -184,6 +184,7 @@
       name="plone_version"
       for="*"
       class=".plone_version.PloneVersionView"
+      attribute="is_plone_6_or_above"
       permission="zope2.View"
       layer="rer.newsletter.interfaces.IRerNewsletterLayer"
       />
