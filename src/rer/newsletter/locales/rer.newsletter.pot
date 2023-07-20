@@ -353,7 +353,7 @@ msgstr ""
 msgid "import_error_index"
 msgstr ""
 
-#. Default: "<!-- <a href=\"users_import\" class=\"plone-btn plone-btn-primary pat-plone-modal\" data-pat-plone-modal=\"width: '770px',height: '430px',\" i18n:translate=\"import_user_list\"> --> Import Users List"
+#. Default: "Import Users List"
 #: rer/newsletter/browser/channel/templates/manageusers.pt:39
 msgid "import_user_list"
 msgstr ""

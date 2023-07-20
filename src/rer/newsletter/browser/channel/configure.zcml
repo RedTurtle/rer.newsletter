@@ -180,4 +180,12 @@
       permission="rer.newsletter.ManageNewsletter"
       />
 
+  <browser:page
+      name="plone_version"
+      for="*"
+      class=".plone_version.PloneVersionView"
+      permission="zope2.View"
+      layer="rer.newsletter.interfaces.IRerNewsletterLayer"
+      />
+
 </configure>

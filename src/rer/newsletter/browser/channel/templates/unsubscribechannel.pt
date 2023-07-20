@@ -15,7 +15,8 @@
              tal:condition="view/form_instance/isVisible"
              tal:content="structure view/contents"
         ></div>
-        <button class="button-plone-modal-close plone-btn"
+        <button tal:define="plone_6 context/@@plone_version/is_plone_6_or_above"
+                tal:attributes="class python: plone_6 and 'button-plone-modal-close btn' or 'button-plone-modal-close plone-btn'"
                 title="chiudi"
                 type="button"
         >Chiudi</button>

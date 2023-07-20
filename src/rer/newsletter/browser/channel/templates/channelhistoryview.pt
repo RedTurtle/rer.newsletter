@@ -31,7 +31,8 @@
 
       <div style="margin-bottom: 2%;">
         <span id="delete-message-sent">
-          <span class="plone-btn plone-btn-primary"
+          <span tal:define="plone_6 context/@@plone_version/is_plone_6_or_above"
+                tal:attributes="class python: plone_6 and 'btn btn-primary' or 'plone-btn plone-btn-primary'"
                 i18n:translate="delete_message_sent"
           >
                 Cancella messaggio inviato

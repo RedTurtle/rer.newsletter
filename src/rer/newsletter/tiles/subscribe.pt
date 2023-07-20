@@ -20,15 +20,15 @@
         </h3>
         <div class="tileBody">
           <div id="channel-subscribe">
-            <a class="plone-btn plone-btn-primary"
-               href="#"
-               tal:define="
+            <a tal:define="
                  is_subscribable view/is_subscribable;
                  absUrl view/getNewsletterUrl;
+                 plone_6 context/@@plone_version/is_plone_6_or_above;
                "
                tal:condition="python:is_subscribable and absUrl"
                tal:attributes="
                  href python:absUrl + '/@@subscribe';
+                 class python: plone_6 and 'btn btn-primary' or 'plone-btn plone-btn-primary';
                "
                i18n:translate="subscribe"
             >

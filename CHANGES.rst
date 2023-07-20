@@ -5,7 +5,8 @@ Changelog
 2.0.0a3 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Adapt management buttons for Plone 6
+  [pnicolli]
 
 
 2.0.0a2 (2023-03-16)
